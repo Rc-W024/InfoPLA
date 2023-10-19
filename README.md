@@ -1,9 +1,15 @@
-# InfoPLA
-
-**军队直接选拔招录普通高等学校应届毕业生岗位信息Python爬取脚本**
+## 军队直接选拔招录普通高等学校应届毕业生岗位信息Python爬取脚本
 
 数据表包含报名人数等信息，以爬取时间为准。需根据每年不同的报名系统地址更改相关参数，且仅在系统开启时有效。
 
-<img src="https://user-images.githubusercontent.com/97808991/228814171-162385b9-b1d6-478b-93ec-5f3e05206c75.png" width="60%">
+<img src="https://user-images.githubusercontent.com/97808991/228814171-162385b9-b1d6-478b-93ec-5f3e05206c75.png" width="50%">
 
+**历届系统地址：**
+
+```
+2022: 211.166.76.109:9998
+2023上半年: 111.203.147.109:9998
+```
+
+<br>
 **鸣谢：** 源代码作者：[@知乎用户65536](https://www.zhihu.com/people/tu-ge-ji-li-38)
