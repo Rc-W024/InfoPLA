@@ -12,8 +12,7 @@ import pandas as pd
 import requests as re
 import time
 
-# 2022: 211.166.76.109:9998
-# 2023上: 111.203.147.109:9998
+# URL
 url = lambda i:"http://111.203.147.109:9998/enroll/post/listVisitor?page="+str(i)+"&limit=50&queryStr="
 
 p = pd.DataFrame()
