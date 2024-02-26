@@ -18,7 +18,8 @@ url = lambda i:"http://111.203.147.109:9998/enroll/post/listVisitor?page="+str(i
 p = pd.DataFrame()
 
 i = 1
-while i < 61:
+num_page = 60 # 根据实际页数调整
+while i < num_page:
     try:
         tempD = re.get(url(int(i)))
     except:
