@@ -12,13 +12,13 @@ import pandas as pd
 import requests as re
 import time
 
-# URL
+# URL（每页显示50条信息）
 url = lambda i:"http://111.203.147.109:9998/enroll/post/listVisitor?page="+str(i)+"&limit=50&queryStr="
 
 p = pd.DataFrame()
 
 i = 1
-num_page = 60 # 根据实际页数调整
+num_page = 60 # 根据上述实际页数调整
 while i < num_page:
     try:
         tempD = re.get(url(int(i)))
