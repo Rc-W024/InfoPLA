@@ -1,4 +1,6 @@
 ## 直接选拔招录军（警）官岗位信息表爬取
+![](https://skillicons.dev/icons?i=py)
+
 数据表包含报名人数等信息，以爬取时间为准。需根据每年不同的报名系统地址更改相关参数，且仅在系统开启（可查看岗位信息）期间有效。
 
 <img src="https://user-images.githubusercontent.com/97808991/228814171-162385b9-b1d6-478b-93ec-5f3e05206c75.png" width="30%">
